@@ -1,0 +1,30 @@
+.intro__header {
+    font-family: 'Lato';
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: uppercase;
+    display: inline;
+}
+
+.intro__header:first-child {
+    color:rgb(62, 156, 220)
+}
+
+.intro__header:nth-child(3) {
+    color:rgb(62, 156, 220)
+}
+
+@media screen and (max-width: 780px) {
+    .intro__header {
+      font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .intro__header {
+      font-size: 20px;
+    }
+}

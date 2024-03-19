@@ -1,0 +1,18 @@
+.footer__line {
+    margin: 0;
+   color:  rgb(195, 195, 195);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: -10px;
+}
+
+.footer__line:nth-child(4){
+    margin-left: 0px;
+}
+
+@media screen and (max-width: 1024px) {
+    .footer__line {
+     display: none;
+    }
+ }

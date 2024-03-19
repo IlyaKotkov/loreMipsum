@@ -1,0 +1,13 @@
+.footer__mail {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 70px;
+}
+
+@media screen and (max-width: 450px) {
+    .footer__mail {
+     margin-top: 20px;
+     margin-left: 0px;
+    }
+ }

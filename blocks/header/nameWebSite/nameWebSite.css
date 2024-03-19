@@ -1,0 +1,24 @@
+.nameWebSite {
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway';
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 33px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: uppercase;
+    color: white;
+    display: block;
+    margin-left: 90px;
+}
+
+.nameWebSite:last-child {
+    color: rgb(66, 169, 237);
+}
+
+@media screen and (max-width: 780px) {
+    .nameWebSite {
+     margin-left: 0px;
+    }
+}

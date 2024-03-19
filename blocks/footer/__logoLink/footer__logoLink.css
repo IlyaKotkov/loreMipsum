@@ -1,0 +1,10 @@
+.footer__logoLink {
+    margin: 0;
+margin-right: 30px;
+}
+
+@media screen and (max-width: 450px) {
+    .footer__logoLink {
+margin-right: 10px;
+    }
+ }

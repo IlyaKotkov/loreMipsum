@@ -1,0 +1,39 @@
+@import url(./__circle/registration__circle.css);
+@import url(./__description/registration__description.css);
+@import url(./__header/registration__header.css);
+@import url(./__points/registration__points.css);
+@import url(./__stageContainer/registration__stageContainer.css);
+@import url(./__stageDescription/registration__stageDescription.css);
+@import url(./__stageImage/registration__stageImage.css);
+@import url(./__headerContainer/registration__headerContainer.css);
+@import url(./__stages/registration__stages.css);
+@import url(./__inputContainer/registration__inputContainer.css);
+@import url(./__menu/registration__menu.css);
+@import url(./__proverb/registration__proverb.css);
+@import url(./inputFile/inputFile.css);
+@import url(./inputSlider/inputSlider.css);
+@import url(./inputText/inputText.css);
+@import url(./menuList/menuList.css);
+@import url(./slideValue/slideValue.css);
+@import url(./sliderContainer/sliderContainer.css);
+@import url(./fileImageOnButton/fileImageOnButton.css);
+@import url(./spanContainer/spanContainer.css);
+@import url(./__submit/registration__submit.css);
+
+.registration {
+    margin: 0 auto;
+    margin-top: 204px;
+    background-color: rgb(39, 39, 51);
+    background-image: url(../../../images/World.png);
+    max-width: 1920px;
+    min-height: 920px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 450px) {
+    .registration {
+        margin-top: 100px;
+    }  
+}

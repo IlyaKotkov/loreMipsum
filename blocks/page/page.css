@@ -1,0 +1,15 @@
+@import url(/blocks/page/__container/page__container.css);
+
+.page {
+    font-family: 'Lato', 'Raleway';
+    margin: 0 auto;
+    background-image: url(../../images/imagePeople.png);
+    max-width: 1920px;
+    background-repeat: no-repeat;
+    background-color: white;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+}

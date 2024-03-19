@@ -1,0 +1,102 @@
+.inputSlider {
+    cursor: pointer;
+    width: 770px;
+}
+
+@media screen and (max-width: 1340px) {
+
+    .inputSlider {
+    width: 500px;
+    }
+ }
+
+ @media screen and (max-width: 580px) {
+
+    .inputSlider {
+    width: 340px;
+    }
+ }
+
+ @media screen and (max-width: 450px) {
+    .inputSlider {
+       width: 300px;
+    }  
+ }
+
+input[type="range"] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: transparent;
+    outline: none;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 23.72px;
+    height: 23.72px;
+    background: rgb(66, 169, 237);
+    border: 3px solid rgb(40, 102, 144);
+    cursor: pointer;
+    margin-top: -11px;
+    margin-bottom: -11px;
+}
+
+input[type="range"]::-moz-range-thumb {
+    -moz-appearance: none;
+    width: 23.72px;
+    height: 23.72px;
+    background: rgb(66, 169, 237);
+    border: 3px solid rgb(40, 102, 144);
+    cursor: pointer;
+}
+
+input[type="range"]::-ms-thumb {
+    appearance: none;
+    width: 23.72px;
+    height: 23.72px;
+    background: rgb(66, 169, 237);
+    border: 3px solid rgb(40, 102, 144);
+    cursor: pointer;
+}
+
+.inputSlider::-webkit-slider-runnable-track {
+    border: 1px solid rgb(255, 255, 255);
+    background: rgba(255, 255, 255, 0.7);
+    height: 6px;
+    border-radius: 30px;
+}
+
+.inputSlider::-webkit-slider-thumb {
+    border: 3px solid rgb(40, 102, 144);
+    background: rgb(66, 169, 237); 
+    width: 23.72px;
+    height: 23.72px;    
+    border-radius: 50%;
+}
+
+.inputSlider::-moz-range-thumb {
+    border: 3px solid rgb(40, 102, 144);
+    background: rgb(66, 169, 237);
+    width: 23.72px;
+    height: 23.72px;    
+    border-radius: 50%; 
+}
+
+.inputSlider::-moz-range-progress {
+    background-color: rgb(66, 169, 237);
+    border-radius: 30px;
+}
+
+.inputSlider::-ms-fill-lower {
+    background-color: rgb(66, 169, 237);
+    border-radius: 30px;
+}
+
+.inputSlider::-ms-thumb {
+    border: 3px solid rgb(40, 102, 144);
+    background: rgb(66, 169, 237);
+    width: 23.72px;
+    height: 23.72px;    
+    border-radius: 50%;
+}

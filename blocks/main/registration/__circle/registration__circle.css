@@ -1,0 +1,13 @@
+.registration__circle {
+    margin: 0;
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+    border: 5px solid rgb(40, 102, 144);
+    background: rgb(62, 156, 220);
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}

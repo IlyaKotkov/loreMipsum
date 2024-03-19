@@ -1,0 +1,33 @@
+.registration__menu {
+    box-sizing: border-box;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 3px;
+
+    background: rgba(255, 255, 255, 0.85);
+    width: 370px;
+    height: 48px;
+
+    color: rgb(39, 39, 51);
+    font-family: "Lato", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: left;
+
+    margin-right: 30px;
+}
+
+@media screen and (max-width: 580px) {
+
+    .registration__menu {
+       margin-right: 0px;
+    }
+   }
+
+   @media screen and (max-width: 450px) {
+    .registration__menu {
+       width: 300px;
+       margin-left: 10px;
+    }  
+}

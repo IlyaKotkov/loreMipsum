@@ -1,0 +1,11 @@
+@import url(./link.css);
+
+.header__links {
+    padding-right: 30px;
+}
+
+@media screen and (max-width: 450px) {
+    .header__links {
+        padding-right: 0px;
+    }  
+}

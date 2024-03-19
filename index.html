@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <link rel="stylesheet" href="./pages/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato&display=swap">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test</title>
+</head>
+
+<body class="page">
+    <header class="header">
+        <div class="header__nameContainer">
+            <h1 class="nameWebSite">loremipsum.</h1>
+            <h1 class="nameWebSite">net</h1>
+        </div>
+        <div class="header__links">
+            <a class="link" href="">бизнес</a>
+            <a class="link" href="">о нас</a>
+            <a class="link" href="">цены</a>
+            <a class="link" href="">оформить заказ</a>
+        </div>
+    </header>
+    <main class="page__container">
+        <section class="intro">
+            <div class="intro__container">
+                <h2 class="intro__header">Lorem ipsum </h2>
+                <h2 class="intro__header">dolor sit <br> ametconsectetur <br></h2>
+                <h2 class="intro__header">adipiscing</h2>
+                <h3 class="intro__listHeader">At vero eos et accusamus et iusto odio dignissimos ducimus!</h3>
+                <ul class="intro__list">
+                    <li class="intro__punkts">Totam rem aperiam eaque ipsa</li>
+                    <li class="intro__punkts">Sit voluptatem accusantium doloremque laudantium</li>
+                    <li class="intro__punkts">Sed ut perspiciatis, unde omnis iste natus error</li>
+                </ul>
+                <div class="intro__buttonContainer">
+                    <button class="intro__button">
+                        заказать
+                    </button>
+                    <button class="intro__button">
+                        подробнее
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <section class="registration">
+            <div class="registration__headerContainer">
+                <h2 class="registration__header">Оформление&nbsp&nbsp&nbsp</h2>
+                <h2 class="registration__header">Заказа</h2>
+                <p class="registration__description">Перед заполнением формы ознакомьтесь с нашей схемой <br> работы!
+                </p>
+            </div>
+            <div class="registration__stages">
+                <div class="registration__stageContainer">
+                    <div class="registration__circle">
+                        <img class="registration__stageImage" src="./images/lupa.png" alt="Лупа">
+                    </div>
+                    <p class="registration__stageDescription">Lorem ipsum dolorsit amet</p>
+                </div>
+                <img class="registration__points" src="./images/Points.png" alt="Точки">
+                <div class="registration__stageContainer">
+                    <div class="registration__circle">
+                        <img class="registration__stageImage" src="./images/procent.png" alt="Процент">
+                    </div>
+                    <p class="registration__stageDescription">Сonsecteturadipiscing elit</p>
+                </div>
+                <img class="registration__points" src="./images/Points.png" alt="Точки">
+                <div class="registration__stageContainer">
+                    <div class="registration__circle">
+                        <img class="registration__stageImage" src="./images/Subtract.png" alt="Файл">
+                    </div>
+                    <p class="registration__stageDescription">Sed do eiusmod tempor</p>
+                </div>
+                <img class="registration__points" src="./images/Points.png" alt="Точки">
+                <div class="registration__stageContainer">
+                    <div class="registration__circle">
+                        <img class="registration__stageImage" src="./images/mail.png" alt="Письмо">
+                    </div>
+                    <p class="registration__stageDescription">Esse cillum doloreeu fugiat</p>
+                </div>
+                <img class="registration__points" src="./images/Points.png" alt="Точки">
+                <div class="registration__stageContainer">
+                    <div class="registration__circle">
+                        <img class="registration__stageImage" src="./images/dollar.png" alt="Банкнота">
+                    </div>
+                    <p class="registration__stageDescription">Excepteur sint occaecat cupidatat non proident</p>
+                </div>
+            </div>
+
+            <div class="registration__inputContainer">
+                <select class="registration__menu">
+                    <option class="menuList" value="">Выберите тип системы</option>
+                    <option class="menuList" value="Sed ut perspiciatis">Sed ut perspiciatis</option>
+                    <option class="menuList" value="Nemo enim ipsam">Nemo enim ipsam</option>
+                    <option class="menuList" value="Et harum quidem">Et harum quidem</option>
+                    <option class="menuList" value="Temporibus autem">Temporibus autem</option>
+                    <option class="menuList" value="Itaque earum rerum">Itaque earum rerum</option>
+                </select>
+                <input class="inputText" placeholder="Ваш e-mail" type="email">
+                <input class="inputText" placeholder="Ваше имя" type="text">
+                <div class="sliderContainer">
+                    <div class="spanContainer">
+                        <p class="registration__proverb">Sed ut perspiciatis, unde omnis iste natus</p>
+                        <span class="slideValue" id="slide-value" class="registration__slide-value">0 %</span>
+                    </div>
+                    <input class="inputSlider" type="range" value="0" min="0" max="100"
+                        oninput="updateSliderValue(this.value)">
+                </div>
+                <button class="inputFile" onclick="document.getElementById('getFile').click()"><img
+                        class="fileImageOnButton" src="./images/file.png">Прикрепить файл</button>
+                <input type='file' id="getFile" style="display:none">
+            </div>
+            <button class="registration__submit">отправить</button>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p class="footer__right">
+            © 2018 «LOREMIPSUM.NET» Все права<br>защищены.
+        </p>
+        <p class="footer__line">|</p>
+        <div class="footer__wallet">
+            <div class="footer__try">
+                <img class="footer__logoWallet" src="./images/Qiwi.png" alt="Логотип Киви">
+                <p class="footer__nameWallet">QIWI<br>wallet</p>
+            </div>
+            <div class="footer__try">
+                <img class="footer__logoWallet" src="./images/Yandex.png"  alt="Логотип Яндекс Деньги">
+                <p class="footer__nameWallet">Yandex<br>Money</p>
+            </div>
+            <div class="footer__try">
+                <img class="footer__logoWallet" src="./images/Web.png" alt="Логотип Веб Мани">
+                <p class="footer__nameWallet">Web<br>Money</p>
+            </div>    
+        </div>
+        <p class="footer__line">|</p>
+            <div class="footer__mail">
+                <img class="footer__mailImage" src="./images/email.png" alt="Картинка письма">
+                <p class="footer__email">info@ipsum228.<br>com</p>
+            </div>
+            <div class="footer__link">
+                <img class="footer__logoLink" src="./images/Vk.png" alt="Логотип Вконтакте">
+                <a href="" class="footer__nameLink">Мы<br>Вконтакте</a>
+            </div>
+    </footer>
+    <script src="index.js"></script>
+</body>

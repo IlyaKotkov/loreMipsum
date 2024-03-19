@@ -1,0 +1,39 @@
+@import url(./__button/intro__button.css);
+@import url(./__buttonContainer/intro__buttonContainer.css);
+@import url(./__container/intro__container.css);
+@import url(./__header/intro__header.css);
+@import url(./__list/intro__list.css);
+@import url(./__listHeader/intro__listHeader.css);
+@import url(./__punkts/intro__punkts.css);
+@import url(./__image/intro__image.css);
+
+.intro {
+    margin: 0 auto;
+    margin-top: 102px;
+    margin-left: 375px;
+}
+
+@media screen and (max-width: 1024px) {
+    .intro {
+        margin-left: 150px;
+    }  
+}
+
+@media screen and (max-width: 650px) {
+    .intro {
+        margin-left: 100px;
+    }  
+}
+
+@media screen and (max-width: 580px) {
+    .intro {
+        margin-left: 50px;
+    }  
+}
+
+@media screen and (max-width: 450px) {
+    .intro {
+       margin-top: 30px;
+       margin-left: 10px;
+    }  
+}

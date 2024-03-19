@@ -1,0 +1,17 @@
+.registration__header {
+    font-family: 'Lato', sans-serif;
+    font-size: 36px;
+    font-weight:300;
+    line-height: 43px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: uppercase;
+    display: inline;
+    color: white;
+    margin-left: 40px;
+}
+
+.registration__header:nth-child(2) {
+    margin-left: 0px;
+   color: rgb(62, 156, 220); 
+}

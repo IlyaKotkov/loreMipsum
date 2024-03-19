@@ -1,0 +1,9 @@
+.intro__buttonContainer {
+    margin-top: 80px;
+}
+
+@media screen and (max-width: 450px) {
+    .intro__buttonContainer {
+        margin-top: 30px;
+    }  
+}

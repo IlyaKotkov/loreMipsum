@@ -1,0 +1,36 @@
+.footer__try {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-right: 40px;
+    margin-left: 40px;
+}
+
+
+.footer__try:nth-child(2) {
+    margin-left: 30px;
+}
+
+.footer__try:nth-child(3) {
+    margin-left: 40px;
+    margin-right: 80px;
+}
+
+@media screen and (max-width: 490px) {
+        .footer__try {
+            margin-right: 0px;
+            margin-left: 0px;
+            margin-bottom: 20px;
+        }
+        
+        
+        .footer__try:nth-child(2) {
+            margin-left: 0px;
+        }
+        
+        .footer__try:nth-child(3) {
+            margin-left: 0px;
+            margin-right: 0px;
+        }
+ }

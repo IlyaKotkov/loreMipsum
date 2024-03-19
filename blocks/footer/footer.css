@@ -1,0 +1,29 @@
+@import url(./__email/footer__email.css);
+@import url(./__line/footer__line.css);
+@import url(./__logoLink/footer__logoLink.css);
+@import url(./__logoWallet/footer__logoWallet.css);
+@import url(./__mail/footer__mail.css);
+@import url(./__mailImage/footer__mailImage.css);
+@import url(./__nameLink/footer__nameLink.css);
+@import url(./__nameWallet/footer__nameWallet.css);
+@import url(./__right/footer__right.css);
+@import url(./__try/footer__try.css);
+@import url(./__wallet/footer__wallet.css);
+@import url(./__link/footer__link.css);
+
+.footer {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+
+    background-color: rgb(61, 64, 80);
+    min-height: 80px;
+}
+
+@media screen and (max-width: 1024px) {
+   .footer {
+    flex-direction: column;
+    align-items: center;
+   }
+}
+
